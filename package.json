@@ -1,5 +1,5 @@
 {
-  "name": "typescript-vue-starter",
+  "name": "tsVue",
   "version": "1.0.0",
   "private": true,
   "description": "",
@@ -10,18 +10,22 @@
   },
   "keywords": [],
   "author": {
-    "name": "Daniel Rosenwasser",
-    "url": "https://github.com/DanielRosenwasser"
+    "name": "Samuel Liu",
+    "url": "https://github.com/Loveparade"
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "element-ui": "^2.0.11",
+    "font-awesome": "^4.7.0",
     "vue": "^2.5.2",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^6.0.0",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "css-loader": "^0.28.1",
+    "eslint": "^4.16.0",
     "ts-loader": "^2.0.3",
     "typescript": "^2.3.2",
     "vue-loader": "^12.0.3",

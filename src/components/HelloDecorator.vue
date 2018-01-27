@@ -10,6 +10,7 @@
 
 <script lang="ts">
 import { Vue, Component, Prop } from "vue-property-decorator";
+import { funcs } from '../route'
 
 @Component
 export default class HelloDecorator extends Vue {
@@ -29,6 +30,10 @@ export default class HelloDecorator extends Vue {
 
     get exclamationMarks(): string {
         return Array(this.enthusiasm + 1).join('!');
+    }
+
+    created() {
+        funcs.add(1, 2)
     }
 }
 </script>
